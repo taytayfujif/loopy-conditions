@@ -2,11 +2,16 @@
  * Create a function called 'greaterNumber'
  * This function will take in 2 Parameters.
  * You need to check which number is greater and return that number
- * @param  { Number } a
- * @param  { Number } b
- * @return { Number }
+ * @param  { 2} a
+ * @param  { 4 } b
+ * @return { 4}
  */
+ 
+ var x= (2,4);
 
+ function greaterNumer(a, b) {
+  	return (b),
+  }
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -14,10 +19,14 @@
  * Your task is to add all the numbers in between 0 and n
  * For example if the number is 10 than the function should return:
  * "0,1,2,3,4,5,6,7,8,9,10"
- * @param  { Number } n
- * @return { String }
+ * @param  {5} n
+ * @return { 0,1,2,3,4,5}
  */
-
+  var n = (5);
+ 
+ function stringOfNumbers(n){
+ 	return(0,1,2,3,4,5)
+ }
 
 /**
  * Create a function called 'sumOfArray'.
@@ -27,7 +36,10 @@
  * @param  { array } arr
  * @return { Number }
  */
-
+var arr= [2,4,6,8];
+function sumOfArray (arr){
+	return(20)
+}
 
 /**
  * Create a function called 'getEvens'.
@@ -37,6 +49,7 @@
  * @return { array }
  */
 
+function getEvens (arr)
 
 /**
  * Create a function called 'getOdds'.
@@ -61,3 +74,5 @@
  * @param  { String } operator ('add', subtract, 'multiply', 'divide')
  * @return { Number/String }
  */
+ var x= (2,5)
+ function calculate (int1, int2)
